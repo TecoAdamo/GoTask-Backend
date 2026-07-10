@@ -8,11 +8,8 @@ $rota = ltrim($rota, '/'); // remove qualquer "/" do início
 
 
 switch ($rota) {
-    case 'task':
-        require __DIR__ . '/routes/task.php';
-        break;
-    case 'comentarios':
-        require __DIR__ . '/routes/comentarios.php';
+    case 'despesas':
+        require __DIR__ . '/routes/despesas.php';
         break;
 
     default:
